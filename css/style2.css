@@ -1,0 +1,74 @@
+
+
+*{
+	
+	font-family: sans-serif;
+  
+      
+
+}
+
+body{
+
+	background: black;
+
+}
+
+.Contenedor{
+
+	color: white;
+
+}
+
+.Contenedor a{
+
+	color: white;
+	font-size: 20px;
+	margin-left: -50px;
+}
+
+.Contenedor p{
+
+	font-family: arial;
+	font-size: 20px;
+	text-align: justify-all;
+	
+}
+
+.Contenedor li{
+
+	font-family: arial;
+	font-size: 20px;
+	
+}
+
+.Contenedor ul{
+
+	list-style-type: binary;
+  	list-style-position: outside;
+  	list-style-image: none;
+}
+
+
+
+h1,h2,h3,h4{
+	color: #ff0000;
+	text-align: center;
+}
+
+
+
+
+
+.CentrarImg{
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+
+
+
