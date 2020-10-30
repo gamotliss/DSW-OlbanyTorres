@@ -12,14 +12,35 @@ body{
 	background:rgb(233, 233, 233);
 
 }
+
 .link11{
 
 	width: 900px;
 	height: 200px auto;
 	text-align: center;
 	animation: textanimation2 1s ease-in-out;
+	
 
 }
+
+.link11 a{
+
+	
+	margin-left: 100px;
+	color: #0b6580;
+
+	
+
+}
+
+.Logos1{
+
+text-align: center;
+
+
+}
+
+
 
 @keyframes textanimation2{
 	0%{
@@ -34,11 +55,14 @@ body{
 
 h1{
 	font-size:30px;
-	color: white;
+	color: rgb(250, 150, 0);
 	text-align: center;
 	animation: textanimation 1s ease-in-out;
+	margin-top: 150px;
 	
 }
+
+
 
 @keyframes textanimation{
 	0%{
@@ -50,11 +74,8 @@ h1{
 	}
 }
 
-.link1 a{
-
-	font-size: 30px;
-	color: #ff0000;
+.Temas{
+	text-align: right;
+	color: rgb(250, 150, 0);
 	
-
 }
-
