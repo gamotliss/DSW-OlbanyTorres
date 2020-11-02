@@ -51,7 +51,7 @@ body{
 
 #nav-h{ /* codigo para ajustar el menu*/
     max-width: 100%;
-    min-height: 50px;
+    min-height: 20px;
 	background: white;
 	
 	
@@ -61,22 +61,17 @@ body{
         
 	display: inline-block;
 	border: none;
-	margin-top: 20px;
-	background-color: rgb(236, 236, 236);
-	
-	
-		
-	
+	margin-top: 20px;	
 
-   
-	
 }
 
 .nav a{
-	padding:20;
+	padding:10;
 	margin: auto;
 	text-decoration:none;
 	color: #0b6580;
+	text-align: center;
+	font-size: 15px;
 }
 
 .nav a:hover,  /* codigo para ponerle color al menu que se vera en moviles*/
@@ -91,18 +86,6 @@ body{
     transition: 700ms;
     text-decoration: none;
 }
-
-h2{
-	text-align: left;
-}
-
-
-
-
-
-
-
-
 
 
 h1,h2,h3,h4{

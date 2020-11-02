@@ -15,10 +15,8 @@ body{
 
 }
 
-p{
-	color: #0b6580;
-	text-align: center;
-}
+
+
 
 
 .Logos2{
@@ -36,15 +34,6 @@ p{
 
 }
 
-
-
-.header{
-
-    width: 100%;
-    margin: auto;
-   
-    
-}
 
 .nav{
 	margin: 0;
@@ -96,17 +85,10 @@ p{
 
 
 
-.CentrarImg{
-
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 50%;
-  }
-  
   h3{
 	  color: rgb(250, 150, 0);
 	  text-align: center;
 	  
   }
+  
   
