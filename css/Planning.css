@@ -1,4 +1,4 @@
-@import url('normalize.css');
+
 
 *{
 	
@@ -15,11 +15,6 @@ body{
 
 }
 
-p{
-	color: #0b6580;
-	text-align: center;
-}
-
 
 .Logos2{
 
@@ -28,13 +23,14 @@ p{
 	height:100px;
 	
 	}
-.Contenedor2{
+.Contenedor{
 
-	color: rgb(250, 150, 0);
+	color:rgb(168, 167, 167);
 	margin-top: 150px;
 
 
 }
+
 
 
 
@@ -58,7 +54,7 @@ p{
     max-width: 100%;
     min-height: 20px;
 	background: white;
-	text-align: center;
+	
 	
 }
 
@@ -66,10 +62,8 @@ p{
         
 	display: inline-block;
 	border: none;
-	margin-top: 20px;
-	
-	
-	
+	margin-top: 20px;	
+
 }
 
 .nav a{
@@ -77,8 +71,8 @@ p{
 	margin: auto;
 	text-decoration:none;
 	color: #0b6580;
+	text-align: center;
 	font-size: 15px;
-
 }
 
 .nav a:hover,  /* codigo para ponerle color al menu que se vera en moviles*/
@@ -95,18 +89,51 @@ p{
 }
 
 
+h1,h2,h3,h4{
+	color:#0b6580;
+	text-align: center;
+}
+
+
+p{
+	color: #0b6580;
+	text-align: justify;
+}
+
 
 .CentrarImg{
 
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 50%;
-  }
-  
-  h3{
-	  color: rgb(250, 150, 0);
-	  text-align: center;
-	  
-  }
-  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.div1{
+	
+	display: inline;
+	margin-left:-5px;
+	
+
+}
+
+.div1 a{
+	
+	
+	text-decoration: none;
+	margin: 200px;
+color: #0b6580;
+
+}
+
+.div1 a:hover,  /* codigo para ponerle color al menu que se vera en moviles*/
+.div1 a:focus{
+    background: rgb(250, 150, 0);
+    color: whitesmoke;
+    text-align: center;
+    transform: translateX(-2px);
+    transform: translateX(2px);
+    transform: translateY(3px);
+    transition: 700ms;
+    text-decoration: none;
+}
