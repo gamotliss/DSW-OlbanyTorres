@@ -1,4 +1,4 @@
-
+@import url('normalize.css');
 
 *{
 	
@@ -33,7 +33,6 @@ body{
 
 
 
-
 .header{
 
     width: 100%;
@@ -48,7 +47,6 @@ body{
 	margin-top: -70px;
 	
 }
-
 
 
 #nav-h{ /* codigo para ajustar el menu*/
@@ -72,7 +70,7 @@ body{
 	margin: auto;
 	text-decoration:none;
 	color: #0b6580;
-	text-align: center;
+	
 	font-size: 15px;
 }
 
@@ -96,10 +94,7 @@ h1,h2,h3,h4{
 }
 
 
-p{
-	color: #0b6580;
-	text-align: justify;
-}
+
 
 
 .CentrarImg{
@@ -110,37 +105,7 @@ p{
   width: 50%;
 }
 
-.div1{
-	
-	display: inline;
-	margin-left:-5px;
-	
 
-}
 
-.div1 a{
-	
-	
-	text-decoration: none;
-	margin: 200px;
-color: #0b6580;
 
-}
 
-.div1 a:hover,  /* codigo para ponerle color al menu que se vera en moviles*/
-.div1 a:focus{
-    background: rgb(250, 150, 0);
-    color: whitesmoke;
-    text-align: center;
-    transform: translateX(-2px);
-    transform: translateX(2px);
-    transform: translateY(3px);
-    transition: 700ms;
-    text-decoration: none;
-}
-
-.orden{
-
-margin-left: 100px;
-
-}
